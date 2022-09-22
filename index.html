@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close-menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+    <aside class="menu white-bg">
+        <div class=" menu-content">
+            <h1 onclick="getElementById('close-menu').checked= false;"><a href="#home">LOGO</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked= false;">
+                    <li><a href="#intro">intro </a></li>
+                    <li><a href="#grid-one"> top 3</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#grid-two">jobs</a></li>
+                    <li><a href="#pricing">pricing</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section white">
+        <div class="main-content intro-content">
+            <div class="intro-text-content texts">
+                <h2> Rover Curiosity on Mars </h2>
+                <p> update fixes a bug that has bothered NASA engineers for years and will allow the astromobile to
+                    move continuously – the current navigation system makes frequent stops to check its
+                    position. The update will allow for greater terrain coverage and more time for experiments
+                    scientific. Curiosity landed on Mars 10 years ago and has now far exceeded its life expectancy of
+                    two years predicted on the planet. The information is from the New Scientist website..</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/undraw_outer_space_re_u9vd.svg" alt="imagem de um foguete indo em direção a lua">
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class=" white-bg section">
+        <div class="main-content top3-content">
+            <h2> top 3 jobs </h2>
+            <p class="second">The release of Apple Silicon-based Macs at the end of last year generated a flurry of news
+                coverage
+                and some surprises at the machine's perfomance. This post details some background information on the
+                experience of porting
+                Firefox to run natively on these CPU's.</p>
+
+            <p class="second">We'll start with some background on the Mac transition and give an overview of Firefox
+                internals tha needed to know about the
+                the new architecture, before moving on to the concept of Universal Binaries.</p>
+
+            <p class="second">We'll then explain how DRM/EME works on the new platform, talk about our experience with
+                macOS Big Sur, and discuss various updater
+                problems we had to deal with. We'll conclude with the release and an overview of various other
+                improvements that are in the pipeline. </p>
+        </div>
+    </section>
+
+    <section id='grid-one' class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="fourth">last work</h2>
+            <p class="third">Here are some recent work.</p>
+            <div class="grid">
+                <article>
+                    <h3>First</h3>
+                    <p>This button would add a box to the row of key content boxes below the intro text.
+                        This should put the box there regardless of where the user ir currently writing.</p>
+                </article>
+                <article>
+                    <h3>Another site</h3>
+                    <p>I'd suggest having a popup that asks where in the row to insert the box(at the beginning or end),
+                        what
+                        title to give the box,
+                        what text to put in the box, and where the box should link to.The entire box should serve as a
+                        link to
+                        the destination page.</p>
+                </article>
+                <article>
+                    <h3>Third one</h3>
+                    <p>You can also include a type attribute containing the MIME type of the resource so a browser can
+                        quickly see what resources are
+                        on offer, and ignore ones that it doesn't support. </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id='gallery' class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="fifth">Little description</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=1" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=2" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=3" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=4" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=5" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=6" alt="random image from unsplash" />
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id='grid-two' class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="fourth">Jobs</h2>
+            <p class="third">better works still make.</p>
+            <div class="grid">
+                <article>
+                    <h3>Lover's Complaint</h3>
+                    <p>Upon her head a platted hive of straw
+                        which fortified her visage from the sun
+                        whereon the thought might think sometime it saw
+                        the carcass of beauty spent and done
+                        time had not scythed all that youth begun
+                        mor youth all quit; but, spite of heaven's fell rage
+                        some beauty peep'd through lattice of sear'd age.</p>
+                </article>
+                <article>
+                    <h3>Fairy Song</h3>
+                    <p>Swifter than the moon's sphere
+                        and I serve the Fairy Queen
+                        to dew her orbs upon the green
+                        the cowslips tall her pensioners be
+                        in their gold coats spots you see
+                        those be rubies fairy favours</p>
+                </article>
+                <article>
+                    <h3>Lovesick</h3>
+                    <p>The water which they beat to follow faster
+                        as amorous of their strokes. For her own person
+                        it beggar'd all description: she did lie
+                        in her pavilion, cloth-of-gold of tissue
+                        erpicturing that Venus where we see
+                        the fancy outwork nature: on each side her
+                        stood pretty dimpled boys like smiling Cupids. </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id='pricing' class="grid-one white-bg section">
+        <div class="main-content top3-content">
+            <h2 class="fourth">Pricing</h2>
+            <p>Calculus is usually developed by working with very small quantities. Historically, the first
+                method of doing so was by infinitesimals. These are objects which can be treated like real
+                numbers but which are, in some sense, "infinitely small". For example, an infinitesimal number
+                could be greater than 0, but less than any number in the sequence 1, 1/2, 1/3, ... and thus less
+                than any positive real number.</p>
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing table</caption>
+                    <thead>
+                        <tr>
+                            <th> Title 1</th>
+                            <th> Title 2</th>
+                            <th> Title 3</th>
+                            <th> Title 4</th>
+                            <th> Title 5</th>
+                            <th> Title 6</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Content content 1</td>
+                            <td>Content content 2</td>
+                            <td>Content content 3</td>
+                            <td>Content content 4</td>
+                            <td>Content content 5</td>
+                            <td>Content content 6</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Content content 1</td>
+                            <td>Content content 2</td>
+                            <td>Content content 3</td>
+                            <td>Content content 4</td>
+                            <td>Content content 5</td>
+                            <td>Content content 6</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Content content 1</td>
+                            <td>Content content 2</td>
+                            <td>Content content 3</td>
+                            <td>Content content 4</td>
+                            <td>Content content 5</td>
+                            <td>Content content 6</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>Content content 1</td>
+                            <td>Content content 2</td>
+                            <td>Content content 3</td>
+                            <td>Content content 4</td>
+                            <td>Content content 5</td>
+                            <td>Content content 6</td>
+                            
+                        </tr>
+                        
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Testing </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="intro main-bg section white">
+        <div class="main-content intro-content">
+            <div class="intro-text-content texts">
+                <h2> contact </h2>
+                <p>if there is any question please contact us</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/undraw_contact_us_re_4qqt.svg"
+                    alt="imagem de uma mulher com carta, uma imagem de uma telefone e indo uma imagem de um celular">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact us</legend>
+                    <div class="form-group">
+                        <label for="first-name"> first name</label>
+                        <input type= "text" name ="first-name" id="first-name" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name"> last name</label>
+                        <input type= "text" name ="last-name" id="last-name" placeholder="Your last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email"> E-mail</label>
+                        <input type= "text" name ="email" id="email" placeholder="Your email">
+                    </div>
+                    <div class="form-group full-width" >
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30"
+                        rows="10" placeholder="Your message"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Send message</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <footer class="white-bg footer">
+        <p>Feito por Gustavo Oliveira</p>
+    </footer>
+    <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
